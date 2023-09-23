@@ -1,0 +1,99 @@
+* {
+       margin:0;
+       padding:0;
+       font-family:"Gilroy Light";
+       box-sizing:border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#main{
+    display:flex;
+    width:100%;
+    height:100%;
+}
+#left{
+    width:50%;
+    height:100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1663926031944-c8e026a97247?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-size:cover;
+    background-position: center;
+}
+#overlay1{
+    position:relative;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.546);
+}
+#overlay2{
+    position:relative;
+    width:100%;
+    height:100%;
+    background-color: rgba(255, 255, 255, 0.694);
+}
+#center1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    text-align:center;
+}
+#center1 h1{
+    font-size:50px;
+    font-weight:100;
+}
+#center1 p{
+    font-size:12px;
+    margin-bottom:20px;
+    margin-top:10px ;
+}
+#center1 button{
+    width:150px;
+    height:45px;
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+}
+#center1 button:hover{
+    background-color:white;
+    color:black;
+}
+#center2{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:black;
+    text-align:center;
+}
+#center2 h1{
+    font-size:50px;
+    font-weight:100;
+}
+#center2 p{
+    font-size:12px;
+    margin-bottom:20px;
+    margin-top:10px ;
+}
+#center2 button{
+    width:150px;
+    height:45px;
+    background-color:transparent;
+    color:black;
+    border:1px solid black;
+}
+#center2 button:hover{
+    background-color:black;
+    color:white;
+}
+
+#right{
+    width:50%;
+    height:100%;
+    background-image:url(https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
+    background-size:cover;
+    background-position:center;
+
+}
